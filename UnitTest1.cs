@@ -187,8 +187,9 @@ public class ExampleTest : PageTest
             //}
 
             //does it for first timeslot only
-                await GetSpecifickTimeslot(0).ClickAsync();
-                CsvLogger.Log(await GetSpecifickTimeslot(0).InnerTextAsync());
+            await Task.Delay(2000);
+            await GetSpecifickTimeslot(1).ClickAsync();
+                CsvLogger.Log(await GetSpecifickTimeslot(1).InnerTextAsync());
                 await LogLanesForSelectedTimeslot( amountOfLanes);
         }
     }
