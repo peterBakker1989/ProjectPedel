@@ -176,15 +176,20 @@ public class ExampleTest : PageTest
         }
         if (!await _warningNoOpenLanes.IsVisibleAsync())
         {
+            //does it for all timeslots
+            //await Task.Delay(2000);
+            //amountOfTimeslotsForToday = await _timeSelectAllOptions.CountAsync();
+            //for (int i = 1; i < amountOfTimeslotsForToday + 1; i++)
+            //{
+            //    await GetSpecifickTimeslot(i).ClickAsync();
+            //    CsvLogger.Log(await GetSpecifickTimeslot(i).InnerTextAsync());
+            //    await LogLanesForSelectedTimeslot( amountOfLanes);
+            //}
 
-            await Task.Delay(2000);
-            amountOfTimeslotsForToday = await _timeSelectAllOptions.CountAsync();
-            for (int i = 1; i < amountOfTimeslotsForToday + 1; i++)
-            {
-                await GetSpecifickTimeslot(i).ClickAsync();
-                CsvLogger.Log(await GetSpecifickTimeslot(i).InnerTextAsync());
+            //does it for first timeslot only
+                await GetSpecifickTimeslot(0).ClickAsync();
+                CsvLogger.Log(await GetSpecifickTimeslot(0).InnerTextAsync());
                 await LogLanesForSelectedTimeslot( amountOfLanes);
-            }
         }
     }
 
