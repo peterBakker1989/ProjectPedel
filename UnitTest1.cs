@@ -14,7 +14,9 @@ public class ExampleTest : PageTest
     public async Task CheckMeetAndPLay()
     {
         int index = 0;
-        string[] laneId = {"88053",
+        string[] laneId = {
+
+"88053",
 "73655",
 "71704",
 "71258",
@@ -37,22 +39,11 @@ public class ExampleTest : PageTest
 "71084",
 "88153",
 "30676",
-"216837",
-"31948",
-"30123",
-"30567",
-"30732",
-"35522",
-"40112",
-"41223",
-"45987",
-"48765",
-"52130",
-"53217",
-"58112"
+"216837"
 };
 
-        int[] amountOfLanes = {4,
+        int[] amountOfLanes = {
+4,
 19,
 4,
 6,
@@ -75,19 +66,7 @@ public class ExampleTest : PageTest
 2,
 1,
 4,
-4,
-4,
-3,
-4,
-3,
-4,
-4,
-4,
-3,
-4,
-3,
-4,
-3
+4
  };
 
         foreach (string id in laneId) {
@@ -98,7 +77,7 @@ public class ExampleTest : PageTest
     }
 
 
-
+    public ILocator _firstTimeSlotOption => Page.Locator("xpath=(//*[@class='pill-filter-container']//span)[1]");
     public ILocator _buttonAcceptCoociekes => Page.Locator("xpath=//*[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']");
     public ILocator _headerTitle => Page.Locator("xpath=//*[@class='club-title']");
 
@@ -126,8 +105,18 @@ public class ExampleTest : PageTest
     {
         await _inputFieldDate.ClickAsync();
     }
+    public async Task ClickFirsTimeSlotOption()
+    {
+               await _firstTimeSlotOption.ClickAsync();
+    }
 
-
+    public async Task ClickFirstTimeslotOptionIfVisible()
+    {
+        await Task.Delay(1000);
+        if (await _firstTimeSlotOption.IsVisibleAsync())
+            await ClickFirsTimeSlotOption();
+        await Task.Delay(1000);
+    }
 
     public async Task ClickSpecificDateInDatePicker(int day)
     {
@@ -138,7 +127,7 @@ public class ExampleTest : PageTest
     public async Task ChangeDayWHenNoTimeSlotAvailable()
     {
         CsvLogger.Log($"No lanes available for {DateTime.Now.ToString("dd-MM-yyyy")}");
-        ClickSpecificDateInDatePicker(31);
+      //  ClickSpecificDateInDatePicker(31);
     }
 
     public async Task LogLanesForSelectedTimeslot(int amountOfLanes)
@@ -187,8 +176,10 @@ public class ExampleTest : PageTest
             //}
 
             //does it for first timeslot only
-                await GetSpecifickTimeslot(0).ClickAsync();
-                CsvLogger.Log(await GetSpecifickTimeslot(0).InnerTextAsync());
+            await Task.Delay(2000);
+            await GetSpecifickTimeslot(1).ClickAsync();
+            await ClickFirstTimeslotOptionIfVisible();
+                CsvLogger.Log(await GetSpecifickTimeslot(1).InnerTextAsync());
                 await LogLanesForSelectedTimeslot( amountOfLanes);
         }
     }
