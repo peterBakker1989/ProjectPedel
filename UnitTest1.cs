@@ -98,7 +98,7 @@ public class ExampleTest : PageTest
     }
 
 
-
+    public ILocator _firstTimeSlotOption => Page.Locator("xpath=(//*[@class='pill-filter-container']//span)[1]");
     public ILocator _buttonAcceptCoociekes => Page.Locator("xpath=//*[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']");
     public ILocator _headerTitle => Page.Locator("xpath=//*[@class='club-title']");
 
@@ -126,8 +126,18 @@ public class ExampleTest : PageTest
     {
         await _inputFieldDate.ClickAsync();
     }
+    public async Task ClickFirsTimeSlotOption()
+    {
+               await _firstTimeSlotOption.ClickAsync();
+    }
 
-
+    public async Task ClickFirstTimeslotOptionIfVisible()
+    {
+        await Task.Delay(1000);
+        if (await _firstTimeSlotOption.IsVisibleAsync())
+            await ClickFirsTimeSlotOption();
+        await Task.Delay(1000);
+    }
 
     public async Task ClickSpecificDateInDatePicker(int day)
     {
@@ -138,7 +148,7 @@ public class ExampleTest : PageTest
     public async Task ChangeDayWHenNoTimeSlotAvailable()
     {
         CsvLogger.Log($"No lanes available for {DateTime.Now.ToString("dd-MM-yyyy")}");
-        ClickSpecificDateInDatePicker(31);
+      //  ClickSpecificDateInDatePicker(31);
     }
 
     public async Task LogLanesForSelectedTimeslot(int amountOfLanes)
@@ -189,6 +199,7 @@ public class ExampleTest : PageTest
             //does it for first timeslot only
             await Task.Delay(2000);
             await GetSpecifickTimeslot(1).ClickAsync();
+            await ClickFirstTimeslotOptionIfVisible();
                 CsvLogger.Log(await GetSpecifickTimeslot(1).InnerTextAsync());
                 await LogLanesForSelectedTimeslot( amountOfLanes);
         }
