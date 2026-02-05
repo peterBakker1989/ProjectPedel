@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [ main, master ]
 
+  schedule:
+    - cron: '0 */4 * * *'  # Draait elke 4 uur
+
 jobs:
   test:
     timeout-minutes: 60
@@ -35,3 +38,4 @@ jobs:
         name: playwright-csv
         path: results/data.csv
         retention-days: 30
+
