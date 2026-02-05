@@ -13,10 +13,10 @@ jobs:
     - name: Setup dotnet
       uses: actions/setup-dotnet@v5
       with:
-        dotnet-version: 8.0.x
-    - name: Build & Install
-      run: dotnet build
+        dotnet-version: 9.0.x
+    - name: Build
+      run: dotnet build PlaywrightTests.csproj
     - name: Ensure browsers are installed
-      run: pwsh bin/Debug/net8.0/playwright.ps1 install --with-deps
-    - name: Run your tests
-      run: dotnet test
+      run: pwsh bin/Debug/net9.0/playwright.ps1 install --with-deps
+    - name: Run tests
+      run: dotnet test PlaywrightTests.csproj --no-build
