@@ -92,7 +92,7 @@ public class ExampleTest : PageTest
 
         foreach (string id in laneId) {
             index++;
-            Console.WriteLine(index);
+            CsvLogger.Log(index.ToString());
             await LogForACertainId(id, amountOfLanes[index-1]); }
 
     }
@@ -137,7 +137,7 @@ public class ExampleTest : PageTest
 
     public async Task ChangeDayWHenNoTimeSlotAvailable()
     {
-        Console.WriteLine($"No lanes available for {DateTime.Now.ToString("dd-MM-yyyy")}");
+        CsvLogger.Log($"No lanes available for {DateTime.Now.ToString("dd-MM-yyyy")}");
         ClickSpecificDateInDatePicker(31);
     }
 
@@ -147,19 +147,19 @@ public class ExampleTest : PageTest
 
         int amountOfFreeLanes = await _timeslotContainer.CountAsync();
         int amountOfTakenLanes = amountOfLanes - amountOfFreeLanes;
-        Console.WriteLine($"{amountOfFreeLanes} banen beschikbaar voor {currentPrice}");
-        Console.WriteLine($"{amountOfTakenLanes} verhuurd voor {currentPrice}");
+        CsvLogger.Log($"{amountOfFreeLanes} banen beschikbaar voor {currentPrice}");
+        CsvLogger.Log($"{amountOfTakenLanes} verhuurd voor {currentPrice}");
     }
 
     public async Task LogForACertainId(string id, int amountOfLanes)
     {
         int amountOfTimeslotsForToday;
-        Console.WriteLine(id);
+        CsvLogger.Log(id);
         await Page.GotoAsync($"https://meetandplay.nl/club/{id}?sport=padel");
 
         if(await _404.IsVisibleAsync())
         {
-            Console.WriteLine($"404 - Club  {id} niet gevonden");
+            CsvLogger.Log($"404 - Club  {id} niet gevonden");
             return;
         }
          await Expect(Page).ToHaveTitleAsync(new Regex("KNLTB Meet & Play | Makkelijk en snel tennissen of padellen bij jou in de buurt"));
@@ -167,8 +167,8 @@ public class ExampleTest : PageTest
         await Task.Delay(2000);
         string baanNaam = await _headerTitle.InnerTextAsync();
         string baanAddress = await _baanAddress.InnerTextAsync();
-        Console.WriteLine(baanNaam);
-        Console.WriteLine(DateTime.Now.ToString("dd-MM-yyyy :hh:mm:ss"));
+        CsvLogger.Log(baanNaam);
+        CsvLogger.Log(DateTime.Now.ToString("dd-MM-yyyy :hh:mm:ss"));
         if (await _warningNoOpenLanes.IsVisibleAsync())
         {
             await ChangeDayWHenNoTimeSlotAvailable();
@@ -182,7 +182,7 @@ public class ExampleTest : PageTest
             for (int i = 1; i < amountOfTimeslotsForToday + 1; i++)
             {
                 await GetSpecifickTimeslot(i).ClickAsync();
-                Console.WriteLine(await GetSpecifickTimeslot(i).InnerTextAsync());
+                CsvLogger.Log(await GetSpecifickTimeslot(i).InnerTextAsync());
                 await LogLanesForSelectedTimeslot( amountOfLanes);
             }
         }
