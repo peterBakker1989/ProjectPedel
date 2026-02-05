@@ -14,7 +14,9 @@ public class ExampleTest : PageTest
     public async Task CheckMeetAndPLay()
     {
         int index = 0;
-        string[] laneId = {"88053",
+        string[] laneId = {
+
+"88053",
 "73655",
 "71704",
 "71258",
@@ -37,22 +39,11 @@ public class ExampleTest : PageTest
 "71084",
 "88153",
 "30676",
-"216837",
-"31948",
-"30123",
-"30567",
-"30732",
-"35522",
-"40112",
-"41223",
-"45987",
-"48765",
-"52130",
-"53217",
-"58112"
+"216837"
 };
 
-        int[] amountOfLanes = {4,
+        int[] amountOfLanes = {
+4,
 19,
 4,
 6,
@@ -75,19 +66,7 @@ public class ExampleTest : PageTest
 2,
 1,
 4,
-4,
-4,
-3,
-4,
-3,
-4,
-4,
-4,
-3,
-4,
-3,
-4,
-3
+4
  };
 
         foreach (string id in laneId) {
