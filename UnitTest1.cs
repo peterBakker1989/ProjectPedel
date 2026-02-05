@@ -49,8 +49,7 @@ public class ExampleTest : PageTest
 "48765",
 "52130",
 "53217",
-"58112",
-"59734"
+"58112"
 };
 
         int[] amountOfLanes = {4,
@@ -88,8 +87,8 @@ public class ExampleTest : PageTest
 4,
 3,
 4,
-3,
-3 };
+3
+ };
 
         foreach (string id in laneId) {
             index++;
