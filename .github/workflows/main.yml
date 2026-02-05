@@ -16,6 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v5
+      with:
+        persist-credentials: true  # Belangrijk voor commit/push
+        fetch-depth: 0      
 
     - name: Setup dotnet
       uses: actions/setup-dotnet@v5
@@ -31,6 +34,13 @@ jobs:
     - name: Run tests
       run: dotnet test PlaywrightTests.csproj --no-build
 
+    - name: Commit CSV results to repo
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add results/data.csv
+        git commit -m "Update CSV results from workflow" || echo "No changes to commit"
+        git push
     - name: Upload CSV results
       if: always()   
       uses: actions/upload-artifact@v4
