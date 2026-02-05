@@ -15,8 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v5
       with:
-        persist-credentials: true  # Belangrijk voor commit/push
-        fetch-depth: 0      
+        persist-credentials: true
+        fetch-depth: 0
+        ref: main 
 
     - name: Setup dotnet
       uses: actions/setup-dotnet@v5
@@ -26,18 +27,32 @@ jobs:
     - name: Build
       run: dotnet build PlaywrightTests.csproj
 
-    - name: Ensure browsers are installed
-      run: pwsh bin/Debug/net9.0/playwright.ps1 install --with-deps
+    - name: Ensure Playwright browsers are installed
+      run: |
+        dotnet tool install --global Microsoft.Playwright.CLI || echo "Already installed"
+        export PATH="$PATH:/home/runner/.dotnet/tools"
+        playwright install --with-deps
 
     - name: Run tests
       run: dotnet test PlaywrightTests.csproj --no-build
+
+    - name: Append CSV results
+      run: |
+        mkdir -p results
+        if [ ! -f results/data.csv ]; then
+          echo "Time,TestName,Status" > results/data.csv
+        fi
+        if [ -f results/new_results.csv ]; then
+          tail -n +2 results/new_results.csv >> results/data.csv
+          rm results/new_results.csv
+        fi
 
     - name: Commit CSV results to repo
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add results/data.csv
-        git commit -m "Update CSV results from workflow" || echo "No changes to commit"
+        git commit -m "Append CSV results from workflow" || echo "No changes to commit"
         git push origin HEAD:refs/heads/main --force
 
     - name: Upload CSV results
@@ -47,4 +62,3 @@ jobs:
         name: playwright-csv
         path: results/data.csv
         retention-days: 30
-
