@@ -3,7 +3,7 @@ using System.Text;
 public static class CsvLogger
 {
     private static readonly object _lock = new();
-    private static readonly string _filePath = "results/data.csv";
+    private static readonly string _filePath = "../../../results/data.csv";
 
     public static void Log(params string[] values)
     {
