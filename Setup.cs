@@ -30,10 +30,14 @@ namespace PlaywrightTests
         [TearDown]
         public async Task AfterEachTest()
         {
-            string traceDirectory = Path.Combine(TestContext.CurrentContext.WorkDirectory, "playwright-traces");
+            var traceDirectory = Path.Combine(
+                TestContext.CurrentContext.TestDirectory, 
+                "playwright-traces"
+            );
+
             Directory.CreateDirectory(traceDirectory);
 
-            string tracePath = Path.Combine(
+            var tracePath = Path.Combine(
                 traceDirectory,
                 $"{TestContext.CurrentContext.Test.ClassName}.{TestContext.CurrentContext.Test.Name}.zip"
             );
