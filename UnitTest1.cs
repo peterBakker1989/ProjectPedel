@@ -8,8 +8,9 @@ namespace PlaywrightTests;
 
 [Parallelizable(ParallelScope.Self)]
 [TestFixture]
-public class ExampleTest : PageTest
+public class ExampleTest : Setup
 {
+  
     [Test]
     public async Task CheckMeetAndPLay()
     {
@@ -77,68 +78,7 @@ public class ExampleTest : PageTest
     }
 
 
-    public ILocator _firstTimeSlotOption => Page.Locator("xpath=(//*[@class='pill-filter-container']//span)[1]");
-    public ILocator _buttonAcceptCoociekes => Page.Locator("xpath=//*[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']");
-    public ILocator _headerTitle => Page.Locator("xpath=//*[@class='club-title']");
-
-    public ILocator _404 => Page.Locator("xpath=//*[contains(text(),'404')]");
-
-    public ILocator _baanAddress => Page.Locator("xpath=//*[@class='mp-club-address']");
-    public ILocator _inputFieldDate => Page.Locator("xpath=//input[@id='date']");
-    public ILocator _warningNoOpenLanes => Page.Locator("xpath=//*[@class='alert alert-whitelabel mb-3']");
-
-    public ILocator _timeslotContainer => Page.Locator("xpath=//*[@class='timeslots']//div[@class='timeslot-container']");
-
-    public ILocator _timeSelectAllOptions => Page.Locator("xpath=//*[@class='mp-page-filters-times']//label");
-
-    public ILocator _priceFieldFirstTimeSlt => Page.Locator("(//*[@class='timeslot-price']//div)[1]");
-
-    public ILocator GetSpecifickTimeslot(int index) { return Page.Locator($"xpath=(//*[@class='mp-page-filters-times']//label)[{index}]"); }
-    public ILocator GetDatePickerSpecificDateField(int day) { return Page.Locator($"xpath=//*[@data-day='{day}']"); }
-    public async Task CheckAndAccpetCookies()
-    {
-        await Task.Delay(1000);
-        if (await _buttonAcceptCoociekes.IsVisibleAsync())
-            await _buttonAcceptCoociekes.ClickAsync();
-    }
-    public async Task ClickInputFieldDate()
-    {
-        await _inputFieldDate.ClickAsync();
-    }
-    public async Task ClickFirsTimeSlotOption()
-    {
-               await _firstTimeSlotOption.ClickAsync();
-    }
-
-    public async Task ClickFirstTimeslotOptionIfVisible()
-    {
-        await Task.Delay(1000);
-        if (await _firstTimeSlotOption.IsVisibleAsync())
-            await ClickFirsTimeSlotOption();
-        await Task.Delay(1000);
-    }
-
-    public async Task ClickSpecificDateInDatePicker(int day)
-    {
-        await ClickInputFieldDate();
-        await GetDatePickerSpecificDateField(day).ClickAsync();
-    }
-
-    public async Task ChangeDayWHenNoTimeSlotAvailable()
-    {
-        CsvLogger.Log($"No lanes available for {DateTime.Now.ToString("dd-MM-yyyy")}");
-      //  ClickSpecificDateInDatePicker(31);
-    }
-
-    public async Task LogLanesForSelectedTimeslot(int amountOfLanes)
-    {
-        string currentPrice = await _priceFieldFirstTimeSlt.InnerTextAsync();
-
-        int amountOfFreeLanes = await _timeslotContainer.CountAsync();
-        int amountOfTakenLanes = amountOfLanes - amountOfFreeLanes;
-        CsvLogger.Log($"{amountOfFreeLanes} banen beschikbaar voor {currentPrice}");
-        CsvLogger.Log($"{amountOfTakenLanes} verhuurd voor {currentPrice}");
-    }
+  
 
     public async Task LogForACertainId(string id, int amountOfLanes)
     {
@@ -146,24 +86,23 @@ public class ExampleTest : PageTest
         CsvLogger.Log(id);
         await Page.GotoAsync($"https://meetandplay.nl/club/{id}?sport=padel");
 
-        if(await _404.IsVisibleAsync())
+        if(await _pedelPom._404.IsVisibleAsync())
         {
             CsvLogger.Log($"404 - Club  {id} niet gevonden");
             return;
         }
          await Expect(Page).ToHaveTitleAsync(new Regex("KNLTB Meet & Play | Makkelijk en snel tennissen of padellen bij jou in de buurt"));
-        await CheckAndAccpetCookies();
-        await Task.Delay(2000);
-        string baanNaam = await _headerTitle.InnerTextAsync();
-        string baanAddress = await _baanAddress.InnerTextAsync();
+        await _pedelPom.CheckAndAccpetCookies();
+        string baanNaam = await _pedelPom._headerTitle.InnerTextAsync();
+        string baanAddress = await _pedelPom._baanAddress.InnerTextAsync();
         CsvLogger.Log(baanNaam);
         CsvLogger.Log(DateTime.Now.ToString("dd-MM-yyyy :hh:mm:ss"));
-        if (await _warningNoOpenLanes.IsVisibleAsync())
+        if (await _pedelPom._warningNoOpenLanes.IsVisibleAsync())
         {
-            await ChangeDayWHenNoTimeSlotAvailable();
+            await _pedelPom.ChangeDayWhenNoTimeSlotAvailable();
             await Task.Delay(1000);
         }
-        if (!await _warningNoOpenLanes.IsVisibleAsync())
+        if (!await _pedelPom._warningNoOpenLanes.IsVisibleAsync())
         {
             //does it for all timeslots
             //await Task.Delay(2000);
@@ -177,10 +116,10 @@ public class ExampleTest : PageTest
 
             //does it for first timeslot only
             await Task.Delay(2000);
-            await GetSpecifickTimeslot(1).ClickAsync();
-            await ClickFirstTimeslotOptionIfVisible();
-                CsvLogger.Log(await GetSpecifickTimeslot(1).InnerTextAsync());
-                await LogLanesForSelectedTimeslot( amountOfLanes);
+            await _pedelPom.GetSpecifickTimeslot(1).ClickAsync();
+            await _pedelPom.MakeSureOnly60MinutesRentDurationIsActive();
+                CsvLogger.Log(await _pedelPom.GetSpecifickTimeslot(1).InnerTextAsync());
+                await _pedelPom.LogLanesForSelectedTimeslot( amountOfLanes);
         }
     }
 
