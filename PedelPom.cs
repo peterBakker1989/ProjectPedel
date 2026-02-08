@@ -4,10 +4,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace PlaywrightTests
 {
+    // Thrown when a club page returns 404 so callers can skip that location.
+    public class LocationNotFoundException : Exception
+    {
+        public LocationNotFoundException(string message) : base(message) { }
+    }
+
     public class PedelPom: PageTest
     {
         private readonly IPage Page;
@@ -18,19 +25,19 @@ namespace PlaywrightTests
         }
         public ILocator GetInactiveRentDuration(int minutes) { return Page.Locator($"xpath=//span[@class='badge rounded-pill pill  inactive ' and text()='{minutes} minuten']"); }
         public ILocator GetActiveRentDuration(int minutes) { return Page.Locator($"xpath=//span[@class='badge rounded-pill pill  active ' and text()='{minutes} minuten']"); }
+
+        public ILocator GetSpecificTimeSlot(string time) { return Page.Locator($"xpath=//*[@name='time' and @value='{time}']"); }
+
+        public ILocator GetTimeSlotWithSpecificName(string laneName) { return Page.Locator($"xpath=//*[@class='timeslot-container']//*[@class='timeslot-name' and contains(text(), '{laneName}')]"); }
+      
+        public ILocator GetPriceOfTimeSLotWithSpecificName(string laneName) {  return Page.Locator($"xpath=//*[@class='timeslot-name' and contains(text(), '{laneName}')]/../following-sibling::*//*[@class='timeslot-price']"); }
         public ILocator _firstTimeSlotOption => Page.Locator("xpath=(//*[@class='pill-filter-container']//span)[1]");
         public ILocator _buttonAcceptCoociekes => Page.Locator("xpath=//*[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']");
-        public ILocator _headerTitle => Page.Locator("xpath=//*[@class='club-title']");
         public ILocator _404 => Page.Locator("xpath=//*[contains(text(),'404')]");
-        public ILocator _baanAddress => Page.Locator("xpath=//*[@class='mp-club-address']");
-        public ILocator _inputFieldDate => Page.Locator("xpath=//input[@id='date']");
         public ILocator _warningNoOpenLanes => Page.Locator("xpath=//*[@class='alert alert-whitelabel mb-3']");
-        public ILocator _timeslotContainer => Page.Locator("xpath=//*[@class='timeslots']//div[@class='timeslot-container']");
-        public ILocator _timeSelectAllOptions => Page.Locator("xpath=//*[@class='mp-page-filters-times']//label");
-        public ILocator _priceFieldFirstTimeSlt => Page.Locator("(//*[@class='timeslot-price']//div)[1]");
-        public ILocator GetSpecifickTimeslot(int index) { return Page.Locator($"xpath=(//*[@class='mp-page-filters-times']//label)[{index}]"); }
-        public ILocator GetDatePickerSpecificDateField(int day) { return Page.Locator($"xpath=//*[@data-day='{day}']"); }
 
+
+ 
         public async Task CheckAndAccpetCookies()
         {
             await Task.Delay(1000);
@@ -41,37 +48,34 @@ namespace PlaywrightTests
             }
 
         }
-        public async Task ClickInputFieldDate()
+
+        public async Task ClickSpecificTimeSlotOption(string time)
         {
-            await _inputFieldDate.ClickAsync();
+            await GetSpecificTimeSlot(time).ClickAsync();
+            await Task.Delay(500);
         }
+
         public async Task ClickFirsTimeSlotOption()
         {
             await _firstTimeSlotOption.ClickAsync();
         }
 
-        public async Task ClickFirstTimeslotOptionIfVisible()
-        {
-            await Task.Delay(1000);
-            if (await _firstTimeSlotOption.IsVisibleAsync())
-                await ClickFirsTimeSlotOption();
-            await Task.Delay(1000);
-        }
-
-        public async Task MakeSUreRentDurationIsInactive(int minutes)
+        public async Task MakeSureRentDurationIsInactive(int minutes)
         {
             if(await GetActiveRentDuration(minutes).IsVisibleAsync())
             {
                 await GetActiveRentDuration(minutes).ClickAsync();
             }
+            await Expect(GetActiveRentDuration(minutes)).Not.ToBeVisibleAsync();
         }
 
-        public async Task MakeSureRentDurationIsInactive(int minutes)
+        public async Task MakeSureRentDurationIsActive(int minutes)
         {
             if (await GetInactiveRentDuration(minutes).IsVisibleAsync())
             {
                 await GetInactiveRentDuration(minutes).ClickAsync();
             }
+            await Expect(GetActiveRentDuration(minutes)).ToBeVisibleAsync();
         }
 
         public async Task MakeSureOnly60MinutesRentDurationIsActive()
@@ -79,25 +83,26 @@ namespace PlaywrightTests
             int[] timeSlots = { 30, 45, 75, 90, 120 };
             foreach (int timeSlot in timeSlots)
             {
-                await MakeSUreRentDurationIsInactive(timeSlot);
+                await MakeSureRentDurationIsInactive(timeSlot);
             }
               
-            await MakeSureRentDurationIsInactive(60);
+            await MakeSureRentDurationIsActive(60);
         }
 
-        public async Task ChangeDayWhenNoTimeSlotAvailable()
+        public async Task OpenPageAndAcceptCookies(string id)
         {
-            CsvLogger.Log($"No lanes available for {DateTime.Now.ToString("dd-MM-yyyy")}");
-        }
+            await Page.GotoAsync($"https://meetandplay.nl/club/{id}?sport=padel");
 
-        public async Task LogLanesForSelectedTimeslot(int amountOfLanes)
-        {
-            string currentPrice = await _priceFieldFirstTimeSlt.InnerTextAsync();
-
-            int amountOfFreeLanes = await _timeslotContainer.CountAsync();
-            int amountOfTakenLanes = amountOfLanes - amountOfFreeLanes;
-            CsvLogger.Log($"{amountOfFreeLanes} banen beschikbaar voor {currentPrice}");
-            CsvLogger.Log($"{amountOfTakenLanes} verhuurd voor {currentPrice}");
+            if (await _404.IsVisibleAsync())
+            {
+                Console.WriteLine($"404 - Club  {id} niet gevonden");
+                CsvLogger.Log($"404 - Club  {id} niet gevonden");
+                // signal caller to skip this location
+                throw new LocationNotFoundException($"Club {id} returned 404");
+            }
+            Console.WriteLine("club gevonden, verder met testen");
+            await Expect(Page).ToHaveTitleAsync(new Regex("KNLTB Meet & Play | Makkelijk en snel tennissen of padellen bij jou in de buurt"));
+            await CheckAndAccpetCookies();
         }
     }
 }
