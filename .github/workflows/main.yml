@@ -5,8 +5,7 @@ on:
     branches: [ main, master ]
 
   schedule:
-    - cron: '0 */4 * * *'  # Draait elke 4 uur
-
+    - cron: '50 * * * *'  
 jobs:
   test:
     timeout-minutes: 60

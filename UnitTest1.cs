@@ -11,118 +11,105 @@ namespace PlaywrightTests;
 public class ExampleTest : Setup
 {
   
+
     [Test]
-    public async Task CheckMeetAndPLay()
+    public async Task LogDataForIndividualLanes()
     {
-        int index = 0;
-        string[] laneId = {
+        intputValesForLocation[] inputValues = new intputValesForLocation[]
+{
 
-"88053",
-"73655",
-"71704",
-"71258",
-"88001",
-"88184",
-"88000",
-"76240",
-"28541",
-"31534",
-"31104",
-"24703",
-"26955",
-"76406",
-"76356",
-"70466",
-"75507",
-"70607",
-"70722",
-"70396",
-"71084",
-"88153",
-"30676",
-"216837"
-};
+        new intputValesForLocation
+            {
+                locationId = "88053",
+                LocationName = "Barendrecht",
+                laneNames = new string[] { "Padelbaan 1", "Padelbaan 2", "Padelbaan 3", "Padelbaan 4c" },
+                startTime = 6,
+                endTime = 22
+            }
 
-        int[] amountOfLanes = {
-4,
-19,
-4,
-6,
-15,
-5,
-11,
-4,
-5,
-2,
-4,
-3,
-6,
-4,
-3,
-2,
-2,
-4,
-3,
-5,
-2,
-1,
-4,
-4
- };
+        };
 
-        foreach (string id in laneId) {
-            index++;
-            CsvLogger.Log(index.ToString());
-            await LogForACertainId(id, amountOfLanes[index-1]); }
-
-    }
-
-
-  
-
-    public async Task LogForACertainId(string id, int amountOfLanes)
-    {
-        int amountOfTimeslotsForToday;
-        CsvLogger.Log(id);
-        await Page.GotoAsync($"https://meetandplay.nl/club/{id}?sport=padel");
-
-        if(await _pedelPom._404.IsVisibleAsync())
+        // run the test for all locations in the array
+        foreach (intputValesForLocation location in inputValues)
         {
-            CsvLogger.Log($"404 - Club  {id} niet gevonden");
-            return;
-        }
-         await Expect(Page).ToHaveTitleAsync(new Regex("KNLTB Meet & Play | Makkelijk en snel tennissen of padellen bij jou in de buurt"));
-        await _pedelPom.CheckAndAccpetCookies();
-        string baanNaam = await _pedelPom._headerTitle.InnerTextAsync();
-        string baanAddress = await _pedelPom._baanAddress.InnerTextAsync();
-        CsvLogger.Log(baanNaam);
-        CsvLogger.Log(DateTime.Now.ToString("dd-MM-yyyy :hh:mm:ss"));
-        if (await _pedelPom._warningNoOpenLanes.IsVisibleAsync())
-        {
-            await _pedelPom.ChangeDayWhenNoTimeSlotAvailable();
-            await Task.Delay(1000);
-        }
-        if (!await _pedelPom._warningNoOpenLanes.IsVisibleAsync())
-        {
-            //does it for all timeslots
-            //await Task.Delay(2000);
-            //amountOfTimeslotsForToday = await _timeSelectAllOptions.CountAsync();
-            //for (int i = 1; i < amountOfTimeslotsForToday + 1; i++)
-            //{
-            //    await GetSpecifickTimeslot(i).ClickAsync();
-            //    CsvLogger.Log(await GetSpecifickTimeslot(i).InnerTextAsync());
-            //    await LogLanesForSelectedTimeslot( amountOfLanes);
-            //}
+            // get value to see if lane is open or closed, if closed log and continue with next location, if open check lanes
+            int roundedDate = DateTime.Now.AddHours(+1).Hour;
+            // get string value of time to check for timeslot options
+            string timeInString = DateTime.Now.AddHours(+1).ToString("HH:00");
+            Console.WriteLine($"{timeInString}");
+            
+            // function to check if lane is open or closes and close the run if the lane is closed
+            if (roundedDate < location.startTime || roundedDate > location.endTime)
+            {
+                Console.WriteLine($"Pedelbaan {location.LocationName} is closed at {roundedDate}");
+                continue;
+            }
+            Console.WriteLine($"Pedelbaan {location.LocationName}  is open, checking lanes");
+            
+            //open the page and accept cookies
+            try
+            {
+                await _pedelPom.OpenPageAndAcceptCookies(location.locationId);
+            }
+            catch (LocationNotFoundException)
+            {
+                // Stop testing this location and continue with the next one in inputValues
+                CsvLogger.Log($"Skipping {location.LocationName} ({location.locationId}) because page returned 404");
+                continue;
+            }
+            
+            //checkThatThereIsNoWarningABoutNoOpelNas
+            if(await _pedelPom._warningNoOpenLanes.IsVisibleAsync())
+            {
+                foreach (string lane in location.laneNames)
+                {
+                    Console.WriteLine($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; Geen lanen beschikbaar vandaag");
 
-            //does it for first timeslot only
-            await Task.Delay(2000);
-            await _pedelPom.GetSpecifickTimeslot(1).ClickAsync();
+                    CsvLogger.Log($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; verhuurd; Geen lanen beschikbaar vandaag");
+
+                }
+                continue;
+            }
+
+            // select only 60 minutes options
             await _pedelPom.MakeSureOnly60MinutesRentDurationIsActive();
-                CsvLogger.Log(await _pedelPom.GetSpecifickTimeslot(1).InnerTextAsync());
-                await _pedelPom.LogLanesForSelectedTimeslot( amountOfLanes);
+
+            // check next timeslot is available 
+            // if available log for every lane if it is taken orn not
+            if (await _pedelPom.GetSpecificTimeSlot(timeInString).IsVisibleAsync())
+            {
+                await _pedelPom.ClickSpecificTimeSlotOption(timeInString);
+                foreach (string lane in location.laneNames)
+                {
+                    if (await _pedelPom.GetTimeSlotWithSpecificName(lane).IsVisibleAsync())
+                    {
+                        Console.WriteLine($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
+
+                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
+
+                    }
+                    else if(!await _pedelPom.GetTimeSlotWithSpecificName(lane).IsVisibleAsync())
+                    {
+                        Console.WriteLine($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
+
+                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
+
+                    }
+
+                }
+            }
+
+            // if timeslot is not availabel, log for every lane that it is taken
+            else if (!await _pedelPom.GetSpecificTimeSlot(timeInString).IsVisibleAsync())
+            {
+                foreach (string lane in location.laneNames)
+                {
+                    Console.WriteLine($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; geen laan beschikbaar dit tijdslot");
+
+                    CsvLogger.Log($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd;  geen laan beschikbaar dit tijdslot");
+
+                }
+            }
         }
     }
-
-
-
 }
