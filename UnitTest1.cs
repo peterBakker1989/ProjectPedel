@@ -20,7 +20,7 @@ public class ExampleTest : Setup
 
         new intputValesForLocation
             {
-                locationId = "                locationId = \"88053\",\r\n",
+                locationId = "88053",
                 LocationName = "Barendrecht",
                 laneNames = new string[] { "Padelbaan 1", "Padelbaan 2", "Padelbaan 3", "Padelbaan 4c" },
                 startTime = 6,
