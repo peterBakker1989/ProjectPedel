@@ -20,10 +20,18 @@ public class ExampleTest : Setup
 
         new intputValesForLocation
             {
-                locationId = "88053",
+                locationId = "                locationId = \"88053\",\r\n",
                 LocationName = "Barendrecht",
                 laneNames = new string[] { "Padelbaan 1", "Padelbaan 2", "Padelbaan 3", "Padelbaan 4c" },
                 startTime = 6,
+                endTime = 22
+            },
+             new intputValesForLocation
+            {
+                locationId = "216837",
+                LocationName = "Club Krimpen",
+                laneNames = new string[] { "Padelbaan 1", "Padelbaan 2", "Padelbaan 3", "Padelbaan 4c","Padelbaan 5", "Padelbaan 6", "Padelbaan 7", "Padelbaan 8","Padelbaan 9" },
+                startTime = 7,
                 endTime = 22
             }
 
@@ -35,7 +43,7 @@ public class ExampleTest : Setup
             // get value to see if lane is open or closed, if closed log and continue with next location, if open check lanes
             int roundedDate = DateTime.Now.AddHours(+1).Hour;
             // get string value of time to check for timeslot options
-            string timeInString = DateTime.Now.AddHours(+1).ToString("HH:00");
+             string timeInString = DateTime.Now.AddHours(+1).ToString("HH:00");
             Console.WriteLine($"{timeInString}");
             
             // function to check if lane is open or closes and close the run if the lane is closed
