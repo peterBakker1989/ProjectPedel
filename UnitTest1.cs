@@ -25,16 +25,7 @@ public class ExampleTest : Setup
                 laneNames = new string[] { "Padelbaan 1", "Padelbaan 2", "Padelbaan 3", "Padelbaan 4c" },
                 startTime = 6,
                 endTime = 22
-            },
-             new intputValesForLocation
-            {
-                locationId = "216837",
-                LocationName = "Club Krimpen",
-                laneNames = new string[] { "Padelbaan 1", "Padelbaan 2", "Padelbaan 3", "Padelbaan 4","Padelbaan 5", "Padelbaan 6", "Padelbaan 7", "Padelbaan 8","Padelbaan 9" },
-                startTime = 7,
-                endTime = 22
             }
-
         };
 
         // run the test for all locations in the array
@@ -75,9 +66,9 @@ public class ExampleTest : Setup
             {
                 foreach (string lane in location.laneNames)
                 {
-                    Console.WriteLine($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; Geen lanen beschikbaar vandaag");
+                    Console.WriteLine($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; Geen lanen beschikbaar vandaag");
 
-                    CsvLogger.Log($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; verhuurd; Geen lanen beschikbaar vandaag");
+                    CsvLogger.Log($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; verhuurd; Geen lanen beschikbaar vandaag");
 
                 }
                 continue;
@@ -95,16 +86,16 @@ public class ExampleTest : Setup
                 {
                     if (await _pedelPom.GetTimeSlotWithSpecificName(lane).IsVisibleAsync())
                     {
-                        Console.WriteLine($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
+                        Console.WriteLine($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
 
-                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
+                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
 
                     }
                     else if(!await _pedelPom.GetTimeSlotWithSpecificName(lane).IsVisibleAsync())
                     {
-                        Console.WriteLine($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
+                        Console.WriteLine($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
 
-                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
+                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
 
                     }
 
@@ -116,9 +107,9 @@ public class ExampleTest : Setup
             {
                 foreach (string lane in location.laneNames)
                 {
-                    Console.WriteLine($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; geen laan beschikbaar dit tijdslot");
+                    Console.WriteLine($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; geen laan beschikbaar dit tijdslot");
 
-                    CsvLogger.Log($"{location.locationId}_{location.LocationName}_{DateTime.Now.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd;  geen laan beschikbaar dit tijdslot");
+                    CsvLogger.Log($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd;  geen laan beschikbaar dit tijdslot");
 
                 }
             }
