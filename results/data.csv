@@ -1,897 +1,741 @@
-﻿
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"88053_Barendrecht_2026-02-07_07:33:08_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:33:08_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:33:08_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:33:08_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:45:30_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:45:30_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:45:30_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:45:30_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:31:10_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:31:10_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:31:10_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:31:10_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-05_05:28:35_Padelbaan 1;06:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-05_05:28:35_Padelbaan 2;06:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-05_05:28:35_Padelbaan 3;06:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-05_05:28:35_Padelbaan 4c;06:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:06:52_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:06:52_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:06:52_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:06:52_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:09:53_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:09:53_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:09:53_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:09:53_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:20:52_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:20:52_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:20:52_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:20:52_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 1;10:00; 216837; Club Krimpen; Padelbaan 1;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 2;10:00; 216837; Club Krimpen; Padelbaan 2;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 3;10:00; 216837; Club Krimpen; Padelbaan 3;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 4;10:00; 216837; Club Krimpen; Padelbaan 4;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 5;10:00; 216837; Club Krimpen; Padelbaan 5;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 6;10:00; 216837; Club Krimpen; Padelbaan 6;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 7;10:00; 216837; Club Krimpen; Padelbaan 7;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 8;10:00; 216837; Club Krimpen; Padelbaan 8;  beschikbaar; € 22,00"
+"216837_Club Krimpen_2026-02-08_08:20:55_Padelbaan 9;10:00; 216837; Club Krimpen; Padelbaan 9;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-08_08:57:12_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:57:12_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:57:12_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:57:12_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 1;10:00; 216837; Club Krimpen; Padelbaan 1;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 2;10:00; 216837; Club Krimpen; Padelbaan 2;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 3;10:00; 216837; Club Krimpen; Padelbaan 3;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 4;10:00; 216837; Club Krimpen; Padelbaan 4;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 5;10:00; 216837; Club Krimpen; Padelbaan 5;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 6;10:00; 216837; Club Krimpen; Padelbaan 6;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 7;10:00; 216837; Club Krimpen; Padelbaan 7;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 8;10:00; 216837; Club Krimpen; Padelbaan 8;  beschikbaar; € 22,00"
+"216837_Club Krimpen_2026-02-08_08:57:16_Padelbaan 9;10:00; 216837; Club Krimpen; Padelbaan 9;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-01_01:13:37_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:13:37_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:13:37_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:13:37_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 1;15:00; 216837; Club Krimpen; Padelbaan 1;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 2;15:00; 216837; Club Krimpen; Padelbaan 2;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 3;15:00; 216837; Club Krimpen; Padelbaan 3;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 4;15:00; 216837; Club Krimpen; Padelbaan 4;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 5;15:00; 216837; Club Krimpen; Padelbaan 5;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 6;15:00; 216837; Club Krimpen; Padelbaan 6;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 7;15:00; 216837; Club Krimpen; Padelbaan 7;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 8;15:00; 216837; Club Krimpen; Padelbaan 8;  beschikbaar; € 22,00"
+"216837_Club Krimpen_2026-02-01_01:13:40_Padelbaan 9;15:00; 216837; Club Krimpen; Padelbaan 9;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-06_06:21:45_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-06_06:21:45_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-06_06:21:45_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-06_06:21:45_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 1;20:00; 216837; Club Krimpen; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 2;20:00; 216837; Club Krimpen; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 3;20:00; 216837; Club Krimpen; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 4;20:00; 216837; Club Krimpen; Padelbaan 4;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 5;20:00; 216837; Club Krimpen; Padelbaan 5;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 6;20:00; 216837; Club Krimpen; Padelbaan 6;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 7;20:00; 216837; Club Krimpen; Padelbaan 7;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 8;20:00; 216837; Club Krimpen; Padelbaan 8;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"216837_Club Krimpen_2026-02-06_06:21:47_Padelbaan 9;20:00; 216837; Club Krimpen; Padelbaan 9;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:41:30_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:41:30_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:41:30_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:41:30_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 1;22:00; 216837; Club Krimpen; Padelbaan 1;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 2;22:00; 216837; Club Krimpen; Padelbaan 2;  beschikbaar; € 37,00"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 3;22:00; 216837; Club Krimpen; Padelbaan 3;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 4;22:00; 216837; Club Krimpen; Padelbaan 4;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 5;22:00; 216837; Club Krimpen; Padelbaan 5;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 6;22:00; 216837; Club Krimpen; Padelbaan 6;  beschikbaar; € 37,00"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 7;22:00; 216837; Club Krimpen; Padelbaan 7;  beschikbaar; € 37,00"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 8;22:00; 216837; Club Krimpen; Padelbaan 8;  verhuurd; onbekend"
+"216837_Club Krimpen_2026-02-08_08:41:33_Padelbaan 9;22:00; 216837; Club Krimpen; Padelbaan 9;  beschikbaar; € 28,00"
+"88053_Barendrecht_2026-02-05_05:29:24_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-05_05:29:24_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-05_05:29:24_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-05_05:29:24_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 1;07:00; 216837; Club Krimpen; Padelbaan 1;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 2;07:00; 216837; Club Krimpen; Padelbaan 2;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 3;07:00; 216837; Club Krimpen; Padelbaan 3;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 4;07:00; 216837; Club Krimpen; Padelbaan 4;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 5;07:00; 216837; Club Krimpen; Padelbaan 5;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 6;07:00; 216837; Club Krimpen; Padelbaan 6;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 7;07:00; 216837; Club Krimpen; Padelbaan 7;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 8;07:00; 216837; Club Krimpen; Padelbaan 8;  beschikbaar; € 22,00"
+"216837_Club Krimpen_2026-02-05_05:29:27_Padelbaan 9;07:00; 216837; Club Krimpen; Padelbaan 9;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-08_08:58:53_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:58:53_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:58:53_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:58:53_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 1;10:00; 216837; Club Krimpen; Padelbaan 1;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 2;10:00; 216837; Club Krimpen; Padelbaan 2;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 3;10:00; 216837; Club Krimpen; Padelbaan 3;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 4;10:00; 216837; Club Krimpen; Padelbaan 4;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 5;10:00; 216837; Club Krimpen; Padelbaan 5;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 6;10:00; 216837; Club Krimpen; Padelbaan 6;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 7;10:00; 216837; Club Krimpen; Padelbaan 7;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 8;10:00; 216837; Club Krimpen; Padelbaan 8;  beschikbaar; € 22,00"
+"216837_Club Krimpen_2026-02-08_08:58:56_Padelbaan 9;10:00; 216837; Club Krimpen; Padelbaan 9;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-09_09:21:35_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:21:35_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:21:35_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:21:35_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 1;11:00; 216837; Club Krimpen; Padelbaan 1;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 2;11:00; 216837; Club Krimpen; Padelbaan 2;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 3;11:00; 216837; Club Krimpen; Padelbaan 3;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 4;11:00; 216837; Club Krimpen; Padelbaan 4;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 5;11:00; 216837; Club Krimpen; Padelbaan 5;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 6;11:00; 216837; Club Krimpen; Padelbaan 6;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 7;11:00; 216837; Club Krimpen; Padelbaan 7;  beschikbaar; € 28,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 8;11:00; 216837; Club Krimpen; Padelbaan 8;  beschikbaar; € 22,00"
+"216837_Club Krimpen_2026-02-09_09:21:38_Padelbaan 9;11:00; 216837; Club Krimpen; Padelbaan 9;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-10_10:45:21_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:45:21_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:45:21_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:45:21_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:35:12_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:35:12_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:35:12_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:35:12_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:34:37_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:34:37_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:34:37_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:34:37_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:34:57_Padelbaan 1;14:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:34:57_Padelbaan 2;14:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:34:57_Padelbaan 3;14:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:34:57_Padelbaan 4c;14:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-03_03:05:49_Padelbaan 1;16:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:05:49_Padelbaan 2;16:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:05:49_Padelbaan 3;16:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:05:49_Padelbaan 4c;16:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-04_04:47:17_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-04_04:47:17_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-04_04:47:17_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:47:17_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:40:47_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-06_06:40:47_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-06_06:40:47_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-06_06:40:47_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:42:08_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:42:08_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:42:08_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:42:08_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-09_09:24:05_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:24:05_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:24:05_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:24:05_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:21:19_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:21:19_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:21:19_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:21:19_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:43:49_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:43:49_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:43:49_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:43:49_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:09:49_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:09:49_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:09:49_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:09:49_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:34:47_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:34:47_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:34:47_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:34:47_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:33:01_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-11_11:33:01_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:33:01_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:33:01_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:30:33_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-12_12:30:33_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:30:33_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:30:33_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:09:22_Padelbaan 1;14:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-01_01:09:22_Padelbaan 2;14:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:09:22_Padelbaan 3;14:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:09:22_Padelbaan 4c;14:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-03_03:01:37_Padelbaan 1;16:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-03_03:01:37_Padelbaan 2;16:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:01:37_Padelbaan 3;16:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:01:37_Padelbaan 4c;16:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-04_04:39:29_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-04_04:39:29_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:39:29_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:39:29_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:42:41_Padelbaan 1;18:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-05_05:42:41_Padelbaan 2;18:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:42:41_Padelbaan 3;18:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-05_05:42:41_Padelbaan 4c;18:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:38:41_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:38:41_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:38:41_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-07_07:38:41_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:41:33_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:41:33_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:41:33_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:41:33_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-06_06:16:11_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:16:11_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:16:11_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:16:11_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:43:27_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:43:27_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:43:27_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:43:27_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:08:06_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:08:06_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:08:06_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:08:06_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:31:24_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:31:24_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:31:24_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:31:24_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:28:45_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:28:45_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:28:45_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:28:45_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:28:03_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:28:03_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:28:03_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:28:03_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:06:18_Padelbaan 1;14:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:06:18_Padelbaan 2;14:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:06:18_Padelbaan 3;14:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:06:18_Padelbaan 4c;14:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:56:22_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-02_02:56:22_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:56:22_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:56:22_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-04_04:31:53_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:31:53_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:31:53_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:31:53_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:38:27_Padelbaan 1;18:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:38:27_Padelbaan 2;18:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:38:27_Padelbaan 3;18:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:38:27_Padelbaan 4c;18:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:43:30_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-06_06:43:30_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:43:30_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:43:30_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:38:36_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:38:36_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:38:36_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:38:36_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:03:10_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:03:10_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:03:10_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:03:10_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:12:56_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:12:56_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:12:56_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:12:56_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:39:55_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:39:55_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:39:55_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:39:55_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:38:57_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:38:57_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:38:57_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:38:57_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:26:41_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:26:41_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:26:41_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:26:41_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:27:50_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:27:50_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:27:50_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:27:50_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:24:12_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:24:12_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:24:12_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:24:12_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:19:22_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:19:22_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:19:22_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:19:22_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:59:05_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:59:05_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:59:05_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:59:05_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:47:43_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:47:43_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:47:43_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:47:43_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-04_04:25:41_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:25:41_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:25:41_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:25:41_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:08:35_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:08:35_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:08:35_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:08:35_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:29:38_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:29:38_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:29:38_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:29:38_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:05:10_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:05:10_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:05:10_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:05:10_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:32_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-06_06:01:32_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-06_06:01:32_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-06_06:01:32_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-07_07:09:39_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-07_07:09:39_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-07_07:09:39_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-07_07:09:39_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-08_08:23:02_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:23:02_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:23:02_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:23:02_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:58:42_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:58:42_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:58:42_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-08_08:58:42_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-10_10:03:21_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-10_10:03:21_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-10_10:03:21_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-10_10:03:21_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-10_10:58:51_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-10_10:58:51_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-10_10:58:51_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-10_10:58:51_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-11_11:58:30_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-11_11:58:30_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-11_11:58:30_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-11_11:58:30_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-02_02:30:56_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-02_02:30:56_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-02_02:30:56_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-02_02:30:56_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-03_03:03:59_Padelbaan 1;16:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-03_03:03:59_Padelbaan 2;16:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:03:59_Padelbaan 3;16:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:03:59_Padelbaan 4c;16:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:58:55_Padelbaan 1;16:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-03_03:58:55_Padelbaan 2;16:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:58:55_Padelbaan 3;16:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:58:55_Padelbaan 4c;16:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-04_04:54:52_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-04_04:54:52_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:54:52_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:54:52_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:09_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:09_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:09_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:09_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:55:11_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:55:11_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:55:11_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:55:11_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:04:31_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:04:31_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:04:31_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:04:31_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:52:32_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:52:32_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:52:32_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:52:32_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:56:38_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:56:38_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:56:38_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:56:38_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:11:44_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-06_06:11:44_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-06_06:11:44_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-06_06:11:44_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-07_07:31:01_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-07_07:31:01_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-07_07:31:01_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-07_07:31:01_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-08_08:26:12_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-08_08:26:12_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-08_08:26:12_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-08_08:26:12_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-09_09:01:08_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:01:08_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:01:08_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:01:08_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-10_10:02:46_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-10_10:02:46_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:02:46_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-10_10:02:46_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:59:15_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-10_10:59:15_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:59:15_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-10_10:59:15_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-11_11:58:56_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-11_11:58:56_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-11_11:58:56_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-11_11:58:56_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-12_12:53:44_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-12_12:53:44_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-12_12:53:44_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-12_12:53:44_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-02_02:32:30_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-02_02:32:30_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-02_02:32:30_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-02_02:32:30_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 13,75"
+"88053_Barendrecht_2026-02-03_03:05:07_Padelbaan 1;16:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:05:07_Padelbaan 2;16:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-03_03:05:07_Padelbaan 3;16:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-03_03:05:07_Padelbaan 4c;16:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:59:39_Padelbaan 1;16:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-03_03:59:39_Padelbaan 2;16:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-03_03:59:39_Padelbaan 3;16:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-03_03:59:39_Padelbaan 4c;16:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 22,00"
+"88053_Barendrecht_2026-02-04_04:54:52_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:54:52_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:54:52_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:54:52_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:56_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:56_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:56_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:01:56_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:56:48_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:56:48_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:56:48_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:56:48_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:05:51_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:05:51_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:05:51_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:05:51_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:53:10_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:53:10_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:53:10_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:53:10_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:58:19_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:58:19_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:58:19_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:58:19_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:19:14_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:19:14_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:19:14_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:19:14_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:44:49_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:44:49_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:44:49_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:44:49_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:09:03_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:09:03_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:09:03_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:09:03_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:35:40_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:35:40_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:35:40_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:35:40_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:33:14_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:33:14_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:33:14_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:33:14_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:26:54_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:26:54_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:26:54_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:26:54_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:04:42_Padelbaan 1;14:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:04:42_Padelbaan 2;14:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:04:42_Padelbaan 3;14:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:04:42_Padelbaan 4c;14:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:51:04_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:51:04_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:51:04_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:51:04_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-04_04:25:56_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:25:56_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-04_04:25:56_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:25:56_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:24:27_Padelbaan 1;18:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:24:27_Padelbaan 2;18:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:24:27_Padelbaan 3;18:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:24:27_Padelbaan 4c;18:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:24:10_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:24:10_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:24:10_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-06_06:24:10_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:06:55_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:06:55_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:06:55_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:06:55_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:21:36_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:21:36_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:21:36_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:21:36_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:58:02_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:58:02_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:58:02_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:58:02_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:13:26_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:13:26_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:13:26_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:13:26_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:37:37_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:37:37_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:37:37_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:37:37_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:37:48_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:37:48_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:37:48_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:37:48_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:27:00_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:27:00_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:27:00_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:27:00_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:31:18_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:31:18_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:31:18_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:31:18_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:30:08_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:30:08_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:30:08_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:30:08_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:27:13_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:27:13_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:27:13_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:27:13_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:04:56_Padelbaan 1;14:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:04:56_Padelbaan 2;14:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:04:56_Padelbaan 3;14:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:04:56_Padelbaan 4c;14:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:51:56_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:51:56_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:51:56_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:51:56_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-04_04:33:30_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-04_04:33:30_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-04_04:33:30_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:33:30_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:37:59_Padelbaan 1;18:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-05_05:37:59_Padelbaan 2;18:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-05_05:37:59_Padelbaan 3;18:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:37:59_Padelbaan 4c;18:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-06_06:40:52_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-06_06:40:52_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-06_06:40:52_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-06_06:40:52_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:36:58_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:36:58_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:36:58_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:36:58_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:34:10_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:34:10_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:34:10_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:34:10_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:05:31_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:05:31_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:05:31_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:05:31_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:14:15_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:14:15_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:14:15_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:14:15_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:41:54_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:41:54_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:41:54_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:41:54_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:13:08_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:13:08_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:13:08_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:13:08_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:29:51_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:29:51_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:29:51_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:29:51_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:27:48_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-11_11:27:48_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:27:48_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:27:48_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:25:59_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:25:59_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:25:59_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:25:59_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:05:00_Padelbaan 1;14:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:05:00_Padelbaan 2;14:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:05:00_Padelbaan 3;14:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:05:00_Padelbaan 4c;14:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:52:58_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:52:58_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:52:58_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:52:58_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-04_04:32:51_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:32:51_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:32:51_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:32:51_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:41:54_Padelbaan 1;18:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:41:54_Padelbaan 2;18:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:41:54_Padelbaan 3;18:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-05_05:41:54_Padelbaan 4c;18:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:28:41_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:28:41_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:28:41_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:28:41_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:34:32_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:34:32_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:34:32_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:34:32_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:08:57_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:08:57_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:08:57_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:08:57_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:13:10_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:13:10_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:13:10_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:13:10_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:40:45_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:40:45_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:40:45_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:40:45_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:38:49_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:38:49_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:38:49_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:38:49_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:26:33_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:26:33_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:26:33_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:26:33_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:28:33_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:28:33_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:28:33_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-10_10:28:33_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:27:00_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:27:00_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:27:00_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:27:00_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:26:13_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:26:13_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:26:13_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:26:13_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:05:51_Padelbaan 1;14:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:05:51_Padelbaan 2;14:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:05:51_Padelbaan 3;14:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-01_01:05:51_Padelbaan 4c;14:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:54:04_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-02_02:54:04_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-02_02:54:04_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:54:04_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-04_04:28:53_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-04_04:28:53_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:28:53_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:28:53_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:32:29_Padelbaan 1;18:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-05_05:32:29_Padelbaan 2;18:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:32:29_Padelbaan 3;18:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:32:29_Padelbaan 4c;18:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:35:51_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-06_06:35:51_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:35:51_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:35:51_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:33:00_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:33:00_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:33:00_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:33:00_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:32:21_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:32:21_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:32:21_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:32:21_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:03:33_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:03:33_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-09_09:03:33_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:03:33_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:07:29_Padelbaan 1;07:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:07:29_Padelbaan 2;07:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:07:29_Padelbaan 3;07:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-06_06:07:29_Padelbaan 4c;07:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:34:32_Padelbaan 1;08:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:34:32_Padelbaan 2;08:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:34:32_Padelbaan 3;08:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-07_07:34:32_Padelbaan 4c;08:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:35:58_Padelbaan 1;09:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:35:58_Padelbaan 2;09:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:35:58_Padelbaan 3;09:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-08_08:35:58_Padelbaan 4c;09:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:07:32_Padelbaan 1;10:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:07:32_Padelbaan 2;10:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:07:32_Padelbaan 3;10:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-09_09:07:32_Padelbaan 4c;10:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:24:45_Padelbaan 1;11:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:24:45_Padelbaan 2;11:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:24:45_Padelbaan 3;11:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-10_10:24:45_Padelbaan 4c;11:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:09:56_Padelbaan 1;12:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:09:56_Padelbaan 2;12:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:09:56_Padelbaan 3;12:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-11_11:09:56_Padelbaan 4c;12:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:09:21_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:09:21_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:09:21_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:09:21_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-12_12:59:57_Padelbaan 1;13:00; 88053; Barendrecht; Padelbaan 1;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-12_12:59:57_Padelbaan 2;13:00; 88053; Barendrecht; Padelbaan 2;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-12_12:59:57_Padelbaan 3;13:00; 88053; Barendrecht; Padelbaan 3;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-12_12:59:57_Padelbaan 4c;13:00; 88053; Barendrecht; Padelbaan 4c;  verhuurd;  geen laan beschikbaar dit tijdslot"
+"88053_Barendrecht_2026-02-02_02:45:54_Padelbaan 1;15:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:45:54_Padelbaan 2;15:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-02_02:45:54_Padelbaan 3;15:00; 88053; Barendrecht; Padelbaan 3;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-02_02:45:54_Padelbaan 4c;15:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 11,00"
+"88053_Barendrecht_2026-02-04_04:24:51_Padelbaan 1;17:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:24:51_Padelbaan 2;17:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:24:51_Padelbaan 3;17:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-04_04:24:51_Padelbaan 4c;17:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:07:57_Padelbaan 1;18:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:07:57_Padelbaan 2;18:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:07:57_Padelbaan 3;18:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-05_05:07:57_Padelbaan 4c;18:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:24:08_Padelbaan 1;19:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-06_06:24:08_Padelbaan 2;19:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:24:08_Padelbaan 3;19:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-06_06:24:08_Padelbaan 4c;19:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:07:40_Padelbaan 1;20:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-07_07:07:40_Padelbaan 2;20:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:07:40_Padelbaan 3;20:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-07_07:07:40_Padelbaan 4c;20:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:25:39_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:25:39_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:25:39_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:25:39_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:58:57_Padelbaan 1;21:00; 88053; Barendrecht; Padelbaan 1;  verhuurd; onbekend"
+"88053_Barendrecht_2026-02-08_08:58:57_Padelbaan 2;21:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:58:57_Padelbaan 3;21:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-08_08:58:57_Padelbaan 4c;21:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:59:25_Padelbaan 1;22:00; 88053; Barendrecht; Padelbaan 1;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:59:25_Padelbaan 2;22:00; 88053; Barendrecht; Padelbaan 2;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:59:25_Padelbaan 3;22:00; 88053; Barendrecht; Padelbaan 3;  beschikbaar; € 27,50"
+"88053_Barendrecht_2026-02-09_09:59:25_Padelbaan 4c;22:00; 88053; Barendrecht; Padelbaan 4c;  beschikbaar; € 27,50"
