@@ -88,14 +88,14 @@ public class ExampleTest : Setup
                     {
                         Console.WriteLine($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-dd_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
 
-                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-hh_dd:mm:ss")}_{lane};{nlTime.ToString("yyyy-MM-dd")};{timeInString}; {nlTime.DayOfWeek.ToString()} {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
+                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-dd_hh:mm:ss")}_{lane};{nlTime.ToString("yyyy-MM-dd")};{timeInString}; {nlTime.DayOfWeek.ToString()}; {location.locationId}; {location.LocationName}; {lane};  beschikbaar; {await _pedelPom.GetPriceOfTimeSLotWithSpecificName(lane).InnerTextAsync()}");
 
                     }
                     else if(!await _pedelPom.GetTimeSlotWithSpecificName(lane).IsVisibleAsync())
                     {
                         Console.WriteLine($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-dd_hh:mm:ss")}_{lane};{timeInString}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
 
-                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-dd_hh:mm:ss")}_{lane};{nlTime.ToString("yyyy-MM-dd")};{timeInString}; {nlTime.DayOfWeek.ToString()} {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
+                        CsvLogger.Log($"{location.locationId}_{location.LocationName}_{nlTime.ToString("yyyy-MM-dd_hh:mm:ss")}_{lane};{nlTime.ToString("yyyy-MM-dd")};{timeInString}; {nlTime.DayOfWeek.ToString()}; {location.locationId}; {location.LocationName}; {lane};  verhuurd; onbekend");
 
                     }
 
