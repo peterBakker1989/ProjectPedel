@@ -29,7 +29,8 @@ namespace PlaywrightTests
         public ILocator GetSpecificTimeSlot(string time) { return Page.Locator($"xpath=//*[@name='time' and @value='{time}']"); }
 
         public ILocator GetTimeSlotWithSpecificName(string laneName) { return Page.Locator($"xpath=//*[@class='timeslot-container']//*[@class='timeslot-name' and contains(text(), '{laneName}')]"); }
-      
+
+        public ILocator _firstPriceOfTimeSlot => Page.Locator("xpath=(//*[@class='timeslot-price'])[1]");
         public ILocator GetPriceOfTimeSLotWithSpecificName(string laneName) {  return Page.Locator($"xpath=//*[@class='timeslot-name' and contains(text(), '{laneName}')]/../following-sibling::*//*[@class='timeslot-price']"); }
         public ILocator _firstTimeSlotOption => Page.Locator("xpath=(//*[@class='pill-filter-container']//span)[1]");
         public ILocator _buttonAcceptCoociekes => Page.Locator("xpath=//*[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']");
