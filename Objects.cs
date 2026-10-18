@@ -13,6 +13,9 @@ namespace PlaywrightTests
         public string[] laneNames { get; set; }
         public int startTime { get; set; }
         public int endTime { get; set; }
+        public bool WholeHours { get; set; }
+        public bool OpenOnSaturday { get; set; }
+        public bool OpenOnSunday { get; set; }
 
     }
 
