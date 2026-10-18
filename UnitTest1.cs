@@ -17,15 +17,19 @@ public class ExampleTest : Setup
     {
         intputValesForLocation[] inputValues = new intputValesForLocation[]
 {
-
+    // if start and endtime are in halfhours. only fill in the hour
         new intputValesForLocation
             {
                 locationId = "88053",
                 LocationName = "Barendrecht",
-                laneNames = new string[] { "Padelbaan 1", "Padelbaan 2", "Padelbaan 3", "Padelbaan 4c" },
+                laneNames = new string[] { "Padelbaan 1", "Padelbaan 2", "Padelbaan 3", "Padelbaan 4" },
                 startTime = 6,
-                endTime = 22
-            }
+                endTime = 24,
+                WholeHours = true,
+                OpenOnSaturday = true,
+                OpenOnSunday = true
+            },
+
         };
 
         // run the test for all locations in the array
@@ -39,8 +43,26 @@ public class ExampleTest : Setup
             int roundedDate = nlTime.AddHours(1).Hour;
             // get string value of time to check for timeslot options
             string timeInString = nlTime.AddHours(+1).ToString("HH:00");
+            if(location.WholeHours == false)
+            {
+                timeInString = nlTime.AddHours(+1).ToString("HH:30");
+            }
             Console.WriteLine($"{timeInString}");
             
+            // check if the location is open on Saturday and stop the run if it is a saturday
+            if (DateTime.Today.DayOfWeek == DayOfWeek.Saturday && location.OpenOnSaturday == false)
+            {
+                Console.WriteLine($"Pedelbaan {location.LocationName} is closed on Saturday");
+                continue;
+            }
+
+            // check if the location is open on sunday and stop the run if it is a saturday
+            if (DateTime.Today.DayOfWeek == DayOfWeek.Sunday && location.OpenOnSaturday == false)
+            {
+                Console.WriteLine($"Pedelbaan {location.LocationName} is closed on Saturday");
+                continue;
+            }
+
             // function to check if lane is open or closes and close the run if the lane is closed
             if (roundedDate < location.startTime || roundedDate > location.endTime)
             {
